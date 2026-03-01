@@ -11,7 +11,7 @@ conexao_bt = None # Variável global para o botão conseguir enxergar o rádio
 def main(page: ft.Page):
     global conexao_bt
     
-    page.title = "Niobio Labs - Central de Comando"
+    page.title = "Central de Comando"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.theme_mode = ft.ThemeMode.DARK 
